@@ -1,0 +1,56 @@
+body{
+    background-color: #E4F1FE;
+    font-family: 'Work Sans', sans-serif;
+}
+#title{
+    letter-spacing: 2px;
+    font-size: 38px;
+    background-color: #336E7B;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+.container{
+    text-align: center;
+}
+#board .row{
+    text-align: center;
+    align-content: center;
+    margin-left:345px;
+    margin-right: 335px;
+    width: relative;
+}
+.odd,.even{
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    font-size: 50px;
+    white-space: nowrap;
+    color: white;
+    border-radius: 5px;
+}
+.odd:hover,.even:hover{
+    cursor:pointer;
+}
+.odd{
+    background-color: #7f8c8d;
+}
+.odd:hover{
+    background-color: #95a5a6;
+}
+.odd:active{
+    background-color: #bdc3c7;
+}
+.even{
+    background-color: #2c3e50;
+}
+.even:hover{
+    background-color: #34495e;
+}
+.even:active{
+    background-color: #2f4f4f;
+}
+.modal-body{
+    text-align: justify;
+}
